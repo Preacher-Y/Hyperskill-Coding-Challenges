@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Topics/ASCII Art/ASCII Art" />
+            <option value="$PROJECT_DIR$/Topics/Collectors/ASCII Art" />
+            <option value="$PROJECT_DIR$/Topics/Collectors/Collectors" />
+            <option value="$PROJECT_DIR$/Topics/Collectors/Set average" />
+            <option value="$PROJECT_DIR$/Topics/Collectors/The product of squares" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Comparable" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Implement compareTo method" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Implement comparing by additional fields" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Leaderboard" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Ratings" />
+            <option value="$PROJECT_DIR$/Topics/Comparable/Value class" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Comparator" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Multiple fields" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Reverse sorting" />
+            <option value="$PROJECT_DIR$/Topics/Comparator/Sort users" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/A sorted stream" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Count passwords" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Functional data processing with streams" />
+            <option value="$PROJECT_DIR$/Topics/Functional data processing with streams/Print elements of a stream" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Counting clicks" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Grouping collectors" />
+            <option value="$PROJECT_DIR$/Topics/Grouping collectors/Palindrome or not" />
+            <option value="$PROJECT_DIR$/Topics/Infinite streams/Generating cats" />
+            <option value="$PROJECT_DIR$/Topics/Infinite streams/Infinite streams" />
+            <option value="$PROJECT_DIR$/Topics/Map and flatMap/Count words without repetitions" />
+            <option value="$PROJECT_DIR$/Topics/Map and flatMap/Map and flatMap" />
+            <option value="$PROJECT_DIR$/Topics/Reduction methods/Calculating factorials" />
+            <option value="$PROJECT_DIR$/Topics/Reduction methods/Range quadratic sum" />
+            <option value="$PROJECT_DIR$/Topics/Reduction methods/Reduction methods" />
+            <option value="$PROJECT_DIR$/Topics/Reduction methods/Sum of divisors" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Bad words detecting" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Check if a number is prime" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Numbers filtering" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Omitting long strings" />
+            <option value="$PROJECT_DIR$/Topics/Stream filtering/Stream filtering" />
+            <option value="$PROJECT_DIR$/Topics/Stream pipelines/Stream pipelines" />
+            <option value="$PROJECT_DIR$/Topics/Stream pipelines/The total number of employees" />
+            <option value="$PROJECT_DIR$/Topics/Streams of primitives/A stream without zero" />
+            <option value="$PROJECT_DIR$/Topics/Streams of primitives/Streams of primitives" />
+            <option value="$PROJECT_DIR$/Topics/Streams of primitives/The average salary" />
+            <option value="$PROJECT_DIR$/Topics/Taking elements/Secret codes" />
+            <option value="$PROJECT_DIR$/Topics/Taking elements/Sorting and skipping numbers" />
+            <option value="$PROJECT_DIR$/Topics/Taking elements/Taking elements" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

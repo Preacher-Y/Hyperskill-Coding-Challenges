@@ -1,0 +1,14 @@
+content:
+  - Comparable
+  - Comparator
+  - Functional data processing with streams
+  - Stream filtering
+  - Map and flatMap
+  - Reduction methods
+  - ASCII Art
+  - Collectors
+  - Grouping collectors
+  - Streams of primitives
+  - Taking elements
+  - Infinite streams
+  - Stream pipelines
