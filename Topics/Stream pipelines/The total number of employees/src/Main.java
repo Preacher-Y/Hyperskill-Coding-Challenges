@@ -12,7 +12,11 @@ class EmployeesCounter {
      * @return the number of employees
      */
     public static long calcNumberOfEmployees(List<Department> departments, long threshold) {
-        return 0; // write your code here
+        return departments.stream()
+                .filter(el->el.code.startsWith("111-"))
+                .flatMap(el-> el.getEmployees().stream())
+                .filter(el->el.getSalary()>=threshold)
+                .count();
     }
 
     // Don't change the code below
