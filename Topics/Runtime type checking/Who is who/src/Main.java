@@ -4,7 +4,11 @@ class Determiner {
 
     public static void determineWhoIsWho(Employee[] employees) {
         for (Employee employee : employees) {
-            System.out.println("EMP");
+            System.out.println(
+                    employee instanceof Developer ? "DEV" :
+                            employee instanceof DataAnalyst ? "DA" :
+                            "EMP"
+            );
         }
     }
 }
