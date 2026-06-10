@@ -7,6 +7,12 @@ class TransactionExample {
      */
     public static long calcSumOfCanceledTransOnNonEmptyAccounts(List<Account> accounts) {
         // write your code here
+        return accounts.stream()
+                .filter(account -> account.getBalance() > 0)
+                .flatMap(account -> account.getTransactions().stream())
+                .filter(transaction -> transaction.getState() == State.CANCELED)
+                .mapToLong(Transaction::getSum)
+                .sum();
     }
 
     // Don't change the code below

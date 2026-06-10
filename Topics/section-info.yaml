@@ -12,3 +12,4 @@ content:
   - Taking elements
   - Infinite streams
   - Stream pipelines
+  - Runtime type checking
