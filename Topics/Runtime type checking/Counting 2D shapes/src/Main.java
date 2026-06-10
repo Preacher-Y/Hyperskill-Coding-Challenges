@@ -1,6 +1,10 @@
+import java.util.Arrays;
+
 class Counter {
     public static int count2DShapes(Shape[] shapes) {
-        return 0;
+        return (int) Arrays.stream(shapes)
+                .filter(shape -> shape.getClass().getSuperclass() == Shape2D.class)
+                .count();
     }
 }
 
