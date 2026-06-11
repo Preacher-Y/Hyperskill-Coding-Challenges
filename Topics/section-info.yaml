@@ -15,3 +15,4 @@ content:
   - Runtime type checking
   - Sealed classes and interfaces
   - Retrieving Class instances
+  - Dealing with modifiers
