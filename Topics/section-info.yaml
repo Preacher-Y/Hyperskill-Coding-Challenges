@@ -16,3 +16,4 @@ content:
   - Sealed classes and interfaces
   - Retrieving Class instances
   - Dealing with modifiers
+  - Manipulating fields and methods
