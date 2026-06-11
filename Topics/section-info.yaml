@@ -13,3 +13,4 @@ content:
   - Infinite streams
   - Stream pipelines
   - Runtime type checking
+  - Sealed classes and interfaces

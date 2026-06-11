@@ -6,7 +6,6 @@ class StreamOfPrimitives {
 
     public static LongStream getLongStream(int n) {
         // write your code here
-        return LongStream.rangeClosed(-n, n ).takeWhile(el->el>0);
     }
 
     public static void main(String[] args) {

@@ -4,20 +4,6 @@ files:
     visible: true
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/12473#comment
-status: Failed
-feedback:
-  message: |
-    Failed test #1 of 3. Wrong answer
-
-    This is a sample test from the problem statement!
-
-    Test input:
-    3
-    Correct output:
-    -3 -2 -1 1 2 3
-
-    Your code output:
-    -3 -2 -1 0 1 2 3
-  time: "Tue, 09 Jun 2026 10:18:46 UTC"
+status: Solved
 record: -1
 submission_language: java17
