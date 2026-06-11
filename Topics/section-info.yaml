@@ -14,3 +14,4 @@ content:
   - Stream pipelines
   - Runtime type checking
   - Sealed classes and interfaces
+  - Retrieving Class instances

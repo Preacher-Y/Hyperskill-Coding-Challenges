@@ -8,14 +8,14 @@ public class Main {
 }
 
 sealed interface ShapeInterface
-        permits TriangleInterface { }
+        permits TriangleInterface, Triangle { }
 
 sealed class Shape
-        permits Triangle, Square, Circle { }
+        permits Triangle, Square { }
 
 
-public non-sealed interface TriangleInterface extends ShapeInterface { }
+non-sealed interface TriangleInterface extends ShapeInterface { }
 
 final class Triangle extends Shape implements ShapeInterface { }
 
-protected sealed class Square extends Shape { }
+non-sealed class Square extends Shape { }
