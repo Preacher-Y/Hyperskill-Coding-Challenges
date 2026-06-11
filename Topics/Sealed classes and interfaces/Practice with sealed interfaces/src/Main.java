@@ -13,3 +13,13 @@ sealed interface ShapeInterface permits Square {
 }
 
 // Implement the Square class here
+final class Square implements ShapeInterface{
+    private final double area;
+    public Square(double area){
+        this.area = area;
+    }
+    @Override
+    public double getArea() {
+        return this.area * this.area;
+    }
+}
