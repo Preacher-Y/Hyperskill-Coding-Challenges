@@ -13,3 +13,14 @@ sealed abstract class Shape permits Square {
 }
 
 // implement the Square class here
+final class Square extends Shape{
+    public final double area;
+    public Square(double area){
+        this.area = area;
+    }
+
+    @Override
+    public double getArea() {
+        return this.area*this.area;
+    }
+}
